@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.aowf.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "aowf.refmap.json",
+  "mixins": [
+    "FishingBobberMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
